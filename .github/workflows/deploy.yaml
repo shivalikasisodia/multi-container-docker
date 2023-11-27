@@ -16,7 +16,7 @@ jobs:
       - run: docker build -t shivisis/multi-client ./client
       - run: docker build -t shivisis/multi-nginx ./nginx
       - run: docker build -t shivisis/multi-server ./server
-      - run: docker build -t eu-west-1/mushivisislti-worker ./worker
+      - run: docker build -t shivisis/multi-worker ./worker
 
       - run: docker push shivisis/multi-client
       - run: docker push shivisis/multi-nginx
